@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>My Page1</title>
+</head>
+<body>
+    <p>hello world!</p>
+    
+
+<h1>This is the link</h1>
+<h2>subtitle2</h2>
+<h3>subtitle3</h3>
+<img scr="https://image.baidu.com/search/detail?ct=503316480&z=0&ipn=d&word=crying%20kitten&step_word=&hs=0&pn=15&spn=0&di=7207123747461922817&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&istype=2&ie=utf-8&oe=utf-8&in=&cl=2&lm=-1&st=-1&cs=3316367659%2C2495072579&os=3045746184%2C702478236&simid=4157376930%2C503660201&adpicid=0&lpn=0&ln=350&fr=&fmq=1681194513978_R&fm=result&ic=&s=undefined&hd=&latest=&copyright=&se=&sme=&tab=0&width=&height=&face=undefined&ist=&jit=&cg=&bdtype=15&oriquery=&objurl=https%3A%2F%2Fassets.rbl.ms%2F18976422%2F980x.jpg&fromurl=ippr_z2C%24qAzdH3FAzdH3Fooo_z%26e3Bs5ej4j5o_z%26e3Bv54AzdH3Fhtppjg-u65og-utg1f-itf-f4tsj-dmddm90bab_z%26e3Bip4s&gsm=1e&rpstart=0&rpnum=0&islist=&querylist=&nojc=undefined&dyTabStr=MCwzLDEsNiw0LDUsMiw3LDgsOQ%3D%3D"
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>     

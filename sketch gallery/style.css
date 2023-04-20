@@ -1,0 +1,29 @@
+html, body {
+  padding: 100px;
+  
+  background-color:deeppink;
+  text-align: center;
+  font-weight: 600px;
+  font-size:20px;
+  margin: 80px;
+  padding: 20px;
+  font-family: 'Roboto';
+}
+
+canvas {
+  align-items: center;
+  display: fixed;
+}
+
+#name {
+  border-style: solid;
+  border-width:0.5px;
+  background-color:aqua;
+  padding: 10px;
+  text-align: right;
+  margin: 10px;
+  left: 20%;
+  font-size: 30px;
+  font-family:'Great Vibes', cursive;
+
+}

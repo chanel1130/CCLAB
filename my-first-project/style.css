@@ -1,0 +1,26 @@
+.content {
+    font-size: 40px;
+    color: blueviolet;
+}
+.content:hover {
+    color: black;
+}
+a:hover {
+    color: white;
+    transition: color 1s ease-in-out;
+}
+#hello {
+    background-color: rgb(171, 202, 255);
+}
+#bye {
+    background-color: aquamarine;
+}
+body {
+    background-color:rgb(255, 227, 246);
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+#title{
+    font-family: 'Pacifico', cursive;
+    background-color: rgb(255, 253, 145);
+}
