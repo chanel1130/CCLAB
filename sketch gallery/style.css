@@ -1,29 +1,53 @@
 html, body {
   padding: 100px;
   
-  background-color:deeppink;
-  text-align: center;
+  background-color: rgb(179, 1, 96);
+  
   font-weight: 600px;
-  font-size:20px;
+  font-size:40px;
   margin: 80px;
   padding: 20px;
-  font-family: 'Roboto';
+  font-family: 'Roboto'; 
 }
 
-canvas {
+
+.box1 {
+
+  align-items: left;
+}
+
+#canvasContainer{
+  display: inline-block;
+  font-size: 20px;
   align-items: center;
-  display: fixed;
+  vertical-align: center;
+ 
+}
+
+#instruction {
+  font-size:15px;
+
+}
+
+.box2 {
+
+  align-items: left;
+}
+#canvasContainer1{
+  display: inline-block;
+  font-size: 30px;
+  align-items: center;
+  vertical-align: center;
+ 
 }
 
 #name {
-  border-style: solid;
-  border-width:0.5px;
-  background-color:aqua;
   padding: 10px;
-  text-align: right;
+  text-align: left;
   margin: 10px;
   left: 20%;
   font-size: 30px;
   font-family:'Great Vibes', cursive;
 
 }
+
